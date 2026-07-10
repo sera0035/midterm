@@ -41,17 +41,19 @@ body {
     width: 100%;
 }
 
-.main-nav {
- list-style: none;
+.nav bar  {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    border-bottom : 1px solid darkcyan;
 }
 
-.main-nav li {
-    float: left;
-    width: 20%;
-    text-align: center;
-    border-right: 1px solid cadetblue;
+.nav-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
-
 .main-nav li:last-child {
     border-right: none;
 }
