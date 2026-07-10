@@ -1,3 +1,4 @@
+/*header styles*/
 header  {
     position: relative;
 }
@@ -16,9 +17,12 @@ header h1   {
     font-size:60px;
 }
 
+/*main content area*/
 main {
     padding:20px;
 }
+
+/*navigation styles*/
 nav ul  {
     display:flex;
     list-style:none;
@@ -43,6 +47,8 @@ nav a   {
     color:black;
 }
 
+/*general Styles*/
+
 body{
     background:#b8d9d5;
     margin:0;
@@ -55,12 +61,14 @@ body{
     background:#d9eceb;
 }
 
+/*article styles*/
 .article-image{
     float:left;
     width:250px;
     margin:0 20px 20px 0;
 }
 
+/*form styles*/
 form {
     border: 1px solid gray;
     padding: 20px;
@@ -75,7 +83,7 @@ input[type="text"], input[type="email"], textarea {
 textarea {
     height: 120px;
 }
-
+/*footer styles*/
 footer  {
     text-align:right;
     padding:30px 20px;
